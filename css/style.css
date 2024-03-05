@@ -39,14 +39,6 @@ font-family: 'Open Sans', sans-serif;
 ==================================================*/
 
 
-@font-face {
-    font-family: 'Argue DEMO';
-    src: url('ArgueDEMO.woff2') format('woff2'),
-        url('ArgueDEMO.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
 
 /*
 프리텐다드
@@ -539,6 +531,8 @@ a.active {
 }
 
 .timeline {
+    display: flex;
+    flex-wrap: wrap;
     padding-left: 0;
     list-style: none;
     position: relative;
